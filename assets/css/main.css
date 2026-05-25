@@ -16,24 +16,30 @@ list-style-type:none;
 
 
 a{
-    text-decoration: none;
+    text-decoration:none;
+}
+.container{
+
+ width:80%;
+ margin:auto;
+
+
 }
 .header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+    padding:22px 0;
+}
+.header .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     align-items: center;
 
 }
-.header .logo{
 
-    padding:22px;
-}
 .list ul{
 display: flex;
 flex-wrap: wrap;
-gap: 60px;
+gap:60px;
 
 }
 .list a{
@@ -43,6 +49,6 @@ gap: 60px;
 .icons ul{
 
     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    flex-wrap:wrap;
+    gap:24px;
 }
